@@ -1,0 +1,57 @@
+/* $desktop: 1200px;
+$laptop: 992px;
+$tablet: 768px;
+$phone: 480px; */
+
+.dailyRituals {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1000px) {
+  .dailyRituals {
+    flex-direction: column;
+  }
+}
+
+.dailyRituals__image {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+@media (min-width: 1000px) {
+  .dailyRituals__image {
+    width: 60%;
+  }
+}
+
+.dailyRituals__content {
+  padding-right: 40px;
+}
+
+.dailyRituals__contentHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.dailyRituals__contentBody {
+  /* padding-bottom: 20px; */
+  line-height: 2;
+}
+
+.dailyRituals__contentbutton {
+  margin-top: 40px;
+}
+
+.dailyRituals__contentbutton > Button {
+  text-transform: inherit;
+  border: 1px solid #000;
+  height: 50px;
+}
+
+.dailyRituals__contentbutton > Button:hover {
+  color: white;
+  background-color: #252525;
+}

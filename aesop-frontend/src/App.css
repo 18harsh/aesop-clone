@@ -1,0 +1,25 @@
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.quote {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.quote > p {
+  text-justify: auto;
+}
+
+.quote1 {
+  text-align: justify;
+
+  margin-top: 100px;
+  font-size: 30px;
+  color: rgb(68, 68, 68);
+  margin-bottom: 20px;
+}

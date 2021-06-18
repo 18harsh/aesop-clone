@@ -1,0 +1,15 @@
+.products {
+  margin-top: 40px;
+}
+
+.sliderActive {
+  width: 15%;
+  background-color: black;
+  border: none;
+}
+
+.sliderInactive {
+  width: 15%;
+  background-color: rgb(201, 201, 201);
+  border: none;
+}

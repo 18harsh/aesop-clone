@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  background-color: #b7d0cc;
+  height: 70px;
+  justify-content: space-between;
+}
+
+.header__button {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header__button > Button {
+  text-transform: capitalize;
+}
+
+.header__button > Button:hover {
+  background-color: #b7d0cc;
+}
+
+.header__button > Button:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 0;
+  position: absolute;
+  background: #252525;
+  transition: width 0.5s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+
+.header__button > Button:hover:after {
+  width: 100%;
+  left: 0;
+}

@@ -1,0 +1,14 @@
+.product {
+  padding: 30px;
+}
+.product > p {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.product > img {
+  object-fit: contain;
+  height: 400px;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.headerTop {
+  background-color: #252525;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.headerTop_p {
+  display: flex;
+  transition: border-bottom 1s;
+}
+
+.headerTop_p > p {
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.headerTop_p:hover {
+  border-bottom: 1px solid #fff;
+}

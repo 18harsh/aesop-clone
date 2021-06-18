@@ -1,0 +1,54 @@
+.brandHome {
+  background-image: url("https://www.aesop.com/u1nb1km7t5q7/5JVCzYs9e8db5XfDrqqSLQ/a22c9473aed6be831b71045da2ebaea8/Aesop_Gifting_2021_Fathers_Day_Web_Homepage_Primary_Full_Bleed_Desktop_L_2880x1044px.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.brandHome__aesopName {
+  font-size: 35px;
+}
+
+.brandHome__aesop {
+  margin-top: -330px;
+  width: 180px;
+  padding-left: 40px;
+}
+
+.brandHome__content {
+  width: 360px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.brandHome__contentDay {
+}
+
+.brandHome__contentHeader {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.brandHome__contentBody {
+  /* padding-bottom: 20px; */
+  line-height: 2;
+}
+
+.brandHome__contentbutton {
+  margin-top: 40px;
+}
+
+.brandHome__contentbutton > Button {
+  text-transform: inherit;
+  border: 1px solid #000;
+  height: 50px;
+}
+
+.brandHome__contentbutton > Button:hover {
+  color: white;
+  background-color: #252525;
+}
